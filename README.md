@@ -1,11 +1,13 @@
 # 💡 WiZ Lampctl
 
-[🇩🇪 Deutsch](#deutsch) | [🇬🇧 English](#english)
+<p align="center">
+  <a href="#deutsch">🇩🇪 Deutsch</a> | <a href="#english">🇬🇧 English</a>
+</p>
 
 ---
 
 <div align="center">
-	<h1>Deutsch</h1>
+	<h1 id="deutsch"> Deutsch </h1>
 </div>
 
 ### Beschreibung
