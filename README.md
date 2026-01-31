@@ -1,4 +1,6 @@
-# 💡 WiZ Lampctl
+<div align="center">
+	<h1 id="title">💡 WiZ Lampctl</h1>
+</div>
 
 <div align="center">
         <h1 id="de"> Deutsch </h1>
