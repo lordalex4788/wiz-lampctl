@@ -109,6 +109,12 @@ GPL3 License - siehe LICENSE Datei für Details.
 	<h1 id="en"> English </h1>
 </div>
 
+### 
+
+<p align="center">
+  <a href="#de">🇩🇪 Deutsch</a> | <a href="#en">🇬🇧 English</a>
+</p>
+
 ### Description
 
 **lampctl** is a command-line tool for controlling WiZ Smart Bulbs via UDP. Control your lighting directly from the terminal - fast, simple, and without cloud connection.
