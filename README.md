@@ -114,28 +114,28 @@ No additional dependencies required - uses only Python standard libraries.
 
 ```bash
 # Show help
-python lampctl.py -h
+python lampctl.py -h, --help
 
 # Search all Wiz-Lamps and Save Config
-python -s
+python -s, --search     
 
 # Turn on all lamps
 python lampctl.py -on
 
 # Turn off lamps 1 and 3
-python lampctl.py -lamp 1 3 -off
+python lampctl.py -off -l 1 3 ,--lamp 1 3
 
 # Set brightness to 75%
-python lampctl.py -dim 75
+python lampctl.py -d 75,-dim 75
 
 # Set color to red
-python lampctl.py -color red
+python lampctl.py -c red, -color red
 
 # Custom HEX color
-python lampctl.py -color FF00FF
+python lampctl.py -c FF00FF, --color FF00FF | ff or FF dont mater
 
 # Combine multiple parameters
-python lampctl.py -lamp 1 2 -on -dim 80 -color warm
+python lampctl.py -on -l 1 2 -d 80 -c red, -on --lamp 1 2 --dim80 --color red
 ```
 
 ### 🎨 Available Color Options
