@@ -191,5 +191,6 @@ GPL3 License - see LICENSE file for details.
 
 ---
 
-**Made with ❤️ for the command line**
+----Made with ❤️ for the command line----*----Made with ❤️ for the command line----
 
+---
