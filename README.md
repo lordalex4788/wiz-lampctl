@@ -95,6 +95,10 @@ GPL3 License - siehe LICENSE Datei für Details.
 
 ---
 
+Made with ❤️ for the command line   *   Made with ❤️ for the command line   *   Made with ❤️ for the command line
+
+---
+
 ## English
 
 ### Description
