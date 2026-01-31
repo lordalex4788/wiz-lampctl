@@ -91,7 +91,7 @@ Contributions sind willkommen! Öffne gerne Issues oder Pull Requests.
 
 ### 📄 Lizenz
 
-MIT License - siehe LICENSE Datei für Details.
+GPL3 License - siehe LICENSE Datei für Details.
 
 ---
 
@@ -183,7 +183,7 @@ Contributions are welcome! Feel free to open issues or pull requests.
 
 ### 📄 License
 
-MIT License - see LICENSE file for details.
+GPL3 License - see LICENSE file for details.
 
 ---
 
