@@ -95,7 +95,7 @@ GPL3 License - siehe LICENSE Datei für Details.
 
 ---
 
-## Made with ❤️ for the command line-  -*-  -Made with ❤️ for the command line
+## Made with ❤️  for the command line
 
 ---
 
@@ -191,6 +191,6 @@ GPL3 License - see LICENSE file for details.
 
 ---
 
-----Made with ❤️ for the command line----*----Made with ❤️ for the command line----
+## Made with ❤️  for the command line
 
 ---
