@@ -14,9 +14,8 @@
 
 - 🔌 Direkte Steuerung über lokales Netzwerk (UDP)
 - 💡 Ein/Ausschalten einzelner oder mehrerer Lampen
-- 🎨 Farbsteuerung via HEX-Codes oder Presets
+- 🎨 Farbsteuerung via HEX-Codes oder vordefinierten Farben
 - 📊 Helligkeitsregelung (10-100%)
-- 🎯 Vordefinierte Modi (TV, Normal, Cleanup, Warm)
 - 🚀 Keine Cloud-Verbindung erforderlich
 
 ### 📦 Installation
@@ -24,9 +23,9 @@
 ```bash
 git clone https://github.com/DEIN-USERNAME/wiz-lampctl.git
 cd wiz-lampctl
-# Installation der Abhängigkeiten (falls vorhanden)
-pip install -r requirements.txt
 ```
+
+Keine zusätzlichen Dependencies erforderlich - nutzt nur Python Standard-Bibliotheken.
 
 ### 🚀 Verwendung
 
@@ -49,37 +48,29 @@ python lampctl.py -color red
 # Custom HEX-Farbe
 python lampctl.py -color FF00FF
 
-# TV-Modus aktivieren
-python lampctl.py -color tv
-
 # Mehrere Parameter kombinieren
 python lampctl.py -lamp 1 2 -on -dim 80 -color warm
 ```
 
-### 🎨 Verfügbare Farben & Modi
+### 🎨 Verfügbare Farboptionen
 
-**Presets:**
-- `tv` - TV-Modus
-- `norm` - Normal
-- `cleanup` - Aufräumen/Arbeiten
-- `warm` - Warmes Licht
-
-**Farben:**
+**Vordefinierte Farben:**
+- `tv`, `norm`, `cleanup`, `warm`
 - `red`, `green`, `blue`, `yellow`
+
+**Custom Farben:**
 - Beliebige HEX-Farben (z.B. `FF00FF`)
 
 ### ⚙️ Konfiguration
 
-Die IP-Adressen der Lampen müssen im Script konfiguriert werden. Öffne `lampctl.py` und passe die Lampen-IPs an:
+Die IP-Adressen der Lampen müssen im Script konfiguriert werden. Öffne `lampctl.py` und passe die Lampen-IPs in der `LAMPEN_LISTE` an:
 
 ```python
-# Beispiel
-LAMPS = {
-    1: "192.168.1.100",
-    2: "192.168.1.101",
-    3: "192.168.1.102"
-}
+# Die IP-Adressen deiner drei Lampen (Index 1, 2, 3)
+LAMPEN_LISTE = ["192.168.178.240", "192.168.178.241", "192.168.178.242"]
 ```
+
+Die Lampen werden über UDP am Port 38899 angesprochen.
 
 ### 📋 Systemanforderungen
 
@@ -107,9 +98,8 @@ MIT License - siehe LICENSE Datei für Details.
 
 - 🔌 Direct control via local network (UDP)
 - 💡 Turn individual or multiple lamps on/off
-- 🎨 Color control via HEX codes or presets
+- 🎨 Color control via HEX codes or predefined colors
 - 📊 Brightness control (10-100%)
-- 🎯 Predefined modes (TV, Normal, Cleanup, Warm)
 - 🚀 No cloud connection required
 
 ### 📦 Installation
@@ -117,9 +107,9 @@ MIT License - siehe LICENSE Datei für Details.
 ```bash
 git clone https://github.com/YOUR-USERNAME/wiz-lampctl.git
 cd wiz-lampctl
-# Install dependencies (if any)
-pip install -r requirements.txt
 ```
+
+No additional dependencies required - uses only Python standard libraries.
 
 ### 🚀 Usage
 
@@ -142,37 +132,29 @@ python lampctl.py -color red
 # Custom HEX color
 python lampctl.py -color FF00FF
 
-# Activate TV mode
-python lampctl.py -color tv
-
 # Combine multiple parameters
 python lampctl.py -lamp 1 2 -on -dim 80 -color warm
 ```
 
-### 🎨 Available Colors & Modes
+### 🎨 Available Color Options
 
-**Presets:**
-- `tv` - TV mode
-- `norm` - Normal
-- `cleanup` - Cleanup/Work mode
-- `warm` - Warm light
-
-**Colors:**
+**Predefined colors:**
+- `tv`, `norm`, `cleanup`, `warm`
 - `red`, `green`, `blue`, `yellow`
+
+**Custom colors:**
 - Any HEX colors (e.g. `FF00FF`)
 
 ### ⚙️ Configuration
 
-Lamp IP addresses must be configured in the script. Open `lampctl.py` and adjust the lamp IPs:
+Lamp IP addresses must be configured in the script. Open `lampctl.py` and adjust the lamp IPs in the `LAMPEN_LISTE`:
 
 ```python
-# Example
-LAMPS = {
-    1: "192.168.1.100",
-    2: "192.168.1.101",
-    3: "192.168.1.102"
-}
+# IP addresses of your three lamps (Index 1, 2, 3)
+LAMPEN_LISTE = ["192.168.178.240", "192.168.178.241", "192.168.178.242"]
 ```
+
+The lamps are controlled via UDP on port 38899.
 
 ### 📋 Requirements
 
