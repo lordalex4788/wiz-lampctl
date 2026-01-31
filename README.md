@@ -4,7 +4,7 @@
 
 ---
 
-<center>Deutsch</center>
+## Deutsch
 
 ### Beschreibung
 
