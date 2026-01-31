@@ -96,9 +96,11 @@ Contributions sind willkommen! Öffne gerne Issues oder Pull Requests.
 GPL3 License - siehe LICENSE Datei für Details.
 
 ---
+
 <div align="center">
 	<h1>Made with ❤️  for the command line</h1>
 </div>
+
 ---
 
 ## English
