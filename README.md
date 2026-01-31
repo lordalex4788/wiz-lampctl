@@ -164,11 +164,11 @@ The lamps are controlled via UDP on port 38899.
 
 Possible paths to the configuration file, where ~/ targets the home directory of the current user.
 
-1: `~/.lampctl.json`
-2: `~/.config/lampctl/lamps.json`
-3: `/etc/lampctl/lamps.json`
+- 1: `~/.lampctl.json`
+- 2: `~/.config/lampctl/lamps.json`
+- 3: `/etc/lampctl/lamps.json`
 
-4: Path points to lampctl_config.json, which is located in the same folder as the Python script.
+- 4: Path points to lampctl_config.json, which is located in the same folder as the Python script.
 
 
 ### 📋 Requirements
