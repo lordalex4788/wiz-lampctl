@@ -55,8 +55,7 @@ python lampctl.py -lamp 1 2 -on -dim 80 -color warm
 ### 🎨 Verfügbare Farboptionen
 
 **Vordefinierte Farben:**
-- `tv`, `norm`, `cleanup`, `warm`
-- `red`, `green`, `blue`, `yellow`
+- `red`, `green`, `blue`, `yellow`, `white`, `black`
 
 **Custom Farben:**
 - Beliebige HEX-Farben (z.B. `FF00FF`)
@@ -139,8 +138,7 @@ python lampctl.py -lamp 1 2 -on -dim 80 -color warm
 ### 🎨 Available Color Options
 
 **Predefined colors:**
-- `tv`, `norm`, `cleanup`, `warm`
-- `red`, `green`, `blue`, `yellow`
+- `red`, `green`, `blue`, `yellow`, `white`, `black`
 
 **Custom colors:**
 - Any HEX colors (e.g. `FF00FF`)
