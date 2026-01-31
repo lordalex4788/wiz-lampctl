@@ -1,14 +1,12 @@
 # 💡 WiZ Lampctl
 
+<div align="center">
+        <h1 id="de"> Deutsch </h1>
+</div>
+
 <p align="center">
   <a href="#de">🇩🇪 Deutsch</a> | <a href="#en">🇬🇧 English</a>
 </p>
-
----
-
-<div align="center">
-	<h1 id="de"> Deutsch </h1>
-</div>
 
 ### Beschreibung
 
@@ -108,8 +106,6 @@ GPL3 License - siehe LICENSE Datei für Details.
 <div align="center">
 	<h1 id="en"> English </h1>
 </div>
-
-### 
 
 <p align="center">
   <a href="#de">🇩🇪 Deutsch</a> | <a href="#en">🇬🇧 English</a>
