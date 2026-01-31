@@ -5,7 +5,7 @@
 ---
 
 <div align="center">
-	<h2>Deutsch</h2>
+	<h1>Deutsch</h1>
 </div>
 
 ### Beschreibung
