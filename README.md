@@ -73,11 +73,11 @@ Die Lampen werden über UDP am Port 38899 angesprochen.
 
 Mögliche Pfade zur Konfigurationsdatei wobei `~/` für das  Home verzeichnis des aktuellen benutzers Zielt.
 
-1: `~/.lampctl.json`
-2: `~/.config/lampctl/lamps.json`
-3: `/etc/lampctl/lamps.json`
+- 1: `~/.lampctl.json`
+- 2: `~/.config/lampctl/lamps.json`
+- 3: `/etc/lampctl/lamps.json`
 
-4: Pfad zeigt auf `lampctl_config.json`, die im selben Ordner liegt wie das Python-Skript.
+- 4: Pfad zeigt auf `lampctl_config.json`, die im selben Ordner liegt wie das Python-Skript.
 
 ### 📋 Systemanforderungen
 
