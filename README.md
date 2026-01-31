@@ -71,6 +71,14 @@ Suche nach WiZ-Lampen im Netzwerk und speichere Konfiguration
 
 Die Lampen werden über UDP am Port 38899 angesprochen.
 
+Mögliche Pfade zur Konfigurationsdatei wobei `~/` für das  Home verzeichnis des aktuellen benutzers Zielt.
+
+1: `~/.lampctl.json`
+2: `~/.config/lampctl/lamps.json`
+3: `/etc/lampctl/lamps.json`
+
+4: Pfad zeigt auf `lampctl_config.json`, die im selben Ordner liegt wie das Python-Skript.
+
 ### 📋 Systemanforderungen
 
 - Python 3.6+
@@ -154,6 +162,15 @@ Search all Wiz-Lamps and Save Config
 
 The lamps are controlled via UDP on port 38899.
 
+Possible paths to the configuration file, where ~/ targets the home directory of the current user.
+
+1: `~/.lampctl.json`
+2: `~/.config/lampctl/lamps.json`
+3: `/etc/lampctl/lamps.json`
+
+4: Path points to lampctl_config.json, which is located in the same folder as the Python script.
+
+
 ### 📋 Requirements
 
 - Python 3.6+
@@ -171,3 +188,4 @@ MIT License - see LICENSE file for details.
 ---
 
 **Made with ❤️ for the command line**
+
