@@ -103,7 +103,11 @@ GPL3 License - siehe LICENSE Datei für Details.
 
 ---
 
-## English
+<div align="center">
+	<h1>
+		## English
+	</h1>
+</div>
 
 ### Description
 
@@ -195,6 +199,8 @@ GPL3 License - see LICENSE file for details.
 
 ---
 
-## Made with ❤️  for the command line
+<div align="center">
+        <h1>Made with ❤️  for the command line</h1>
+</div>
 
 ---
