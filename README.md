@@ -21,7 +21,7 @@
 ### 📦 Installation
 
 ```bash
-git clone https://github.com/DEIN-USERNAME/wiz-lampctl.git
+git clone https://github.com/lordalex4788/wiz-lampctl
 cd wiz-lampctl
 ```
 
@@ -31,25 +31,28 @@ Keine zusätzlichen Dependencies erforderlich - nutzt nur Python Standard-Biblio
 
 ```bash
 # Hilfe anzeigen
-python lampctl.py -h
+python lampctl.py -h, --help
+
+# Suche nach WiZ-Lampen im Netzwerk und speichere Konfiguration
+python -s, --search          
 
 # Alle Lampen einschalten
 python lampctl.py -on
 
 # Lampe 1 und 3 ausschalten
-python lampctl.py -lamp 1 3 -off
+python lampctl.py -off -l 1 3 ,--lamp 1 3
 
 # Helligkeit auf 75% setzen
-python lampctl.py -dim 75
+python lampctl.py -d 75,-dim 75
 
 # Farbe auf Rot setzen
-python lampctl.py -color red
+python lampctl.py -c red, -color red
 
 # Custom HEX-Farbe
-python lampctl.py -color FF00FF
+python lampctl.py -c FF00FF, --color FF00FF | ff ooder FF ist egal
 
 # Mehrere Parameter kombinieren
-python lampctl.py -lamp 1 2 -on -dim 80 -color warm
+python lampctl.py -on -l 1 2 -d 80 -c red, -on --lamp 1 2 --dim80 --color red
 ```
 
 ### 🎨 Verfügbare Farboptionen
@@ -62,12 +65,9 @@ python lampctl.py -lamp 1 2 -on -dim 80 -color warm
 
 ### ⚙️ Konfiguration
 
-Die IP-Adressen der Lampen müssen im Script konfiguriert werden. Öffne `lampctl.py` und passe die Lampen-IPs in der `LAMPEN_LISTE` an:
+Suche nach WiZ-Lampen im Netzwerk und speichere Konfiguration
 
-```python
-# Die IP-Adressen deiner drei Lampen (Index 1, 2, 3)
-LAMPEN_LISTE = ["192.168.178.240", "192.168.178.241", "192.168.178.242"]
-```
+`python -s` 
 
 Die Lampen werden über UDP am Port 38899 angesprochen.
 
@@ -104,7 +104,7 @@ MIT License - siehe LICENSE Datei für Details.
 ### 📦 Installation
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/wiz-lampctl.git
+git clone https://github.com/lordalex4788/wiz-lampctl
 cd wiz-lampctl
 ```
 
@@ -115,6 +115,9 @@ No additional dependencies required - uses only Python standard libraries.
 ```bash
 # Show help
 python lampctl.py -h
+
+# Search all Wiz-Lamps and Save Config
+python -s
 
 # Turn on all lamps
 python lampctl.py -on
@@ -145,12 +148,9 @@ python lampctl.py -lamp 1 2 -on -dim 80 -color warm
 
 ### ⚙️ Configuration
 
-Lamp IP addresses must be configured in the script. Open `lampctl.py` and adjust the lamp IPs in the `LAMPEN_LISTE`:
+Search all Wiz-Lamps and Save Config
 
-```python
-# IP addresses of your three lamps (Index 1, 2, 3)
-LAMPEN_LISTE = ["192.168.178.240", "192.168.178.241", "192.168.178.242"]
-```
+`python -s`
 
 The lamps are controlled via UDP on port 38899.
 
